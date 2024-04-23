@@ -1,5 +1,7 @@
 Utilizando o perceptions para tomadas de decisão
 
+linguagens: HTML, JVS
+
 criterios utilizados para ir ou nãoa um show: refêrencias: w3schols
 
 no exemplo foram utilizados 5 criterios e 5 pesos para eles
