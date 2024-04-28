@@ -24,3 +24,8 @@ NOTE QUE O EXEMPLO ACIMA É APENAS UM SIMPLES EXEMPLO UM SISTEMA COM MAIS NEURON
 RN.HTML
 
 UTILIZANDO O BRAINS.JS NO APRENDIZADO DE MAQUINA
+No exemplo citado a máquina esta prevendo qual seia a saida de um input de [1,0] e assim retornando a probabilidade do resultado para o melhor entendimento
+acompanhe a seção network.train e os exemplos de entrada e saida.
+
+Nesse exemplos demonstramos alguns exemplos para a maquina e assim ensinamos ela a prever o nosso proximo movimento 
+Referencia: W3schools
