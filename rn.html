@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <script src="https://unpkg.com/brain.js"></script>
+<body>
+<h1>Deep Learning with brain.js</h1>
+<div id="demo"></div>
+
+<script>
+// Criando uma rede neural
+const network = new brain.NeuralNetwork();
+
+//treinando com networl.train exemplo 4 valores de entrada e um de saida 
+network.train([
+  {input:[0,0], output:{zero:1}},
+  {input:[0,1], output:{one:1}},
+  {input:[1,0], output:{one:1}},
+  {input:[1,1], output:{zero:1}},
+]);
+
+// qual é o resultado provavel de {1,0}?
+let result = network.run([1,0]);
+
+// resposta um 93% zero = 6%
+document.getElementById("demo").innerHTML =
+"one: " + result["one"] + "<br>" + "zero: " + result["zero"];
+</script>
+</body>
+</html>
