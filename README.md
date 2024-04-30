@@ -29,3 +29,5 @@ acompanhe a seção network.train e os exemplos de entrada e saida.
 
 Nesse exemplos demonstramos alguns exemplos para a maquina e assim ensinamos ela a prever o nosso proximo movimento 
 Referencia: W3schools
+
+As vantagens de se utilizar o Brains.JS é o fato do proprio esconder toda a complexidade da matematica
